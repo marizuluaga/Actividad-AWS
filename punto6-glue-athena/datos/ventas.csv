@@ -1,0 +1,26 @@
+id_venta,fecha,cliente,ciudad,categoria,producto,cantidad,precio
+1,2026-09-01,Ana Gomez,Medellin,Tecnologia,Portatil,1,3200000
+2,2026-09-02,Luis Perez,Bogota,Tecnologia,Monitor,2,850000
+3,2026-09-03,Carla Ruiz,Cali,Accesorios,Teclado,2,180000
+4,2026-09-04,Diego Torres,Medellin,Oficina,Silla,1,420000
+5,2026-09-05,Elena Lopez,Bogota,Tecnologia,Disco SSD,3,350000
+6,2026-09-06,Bruno Castro,Cali,Accesorios,Mouse,4,75000
+7,2026-09-07,Sofia Ramirez,Medellin,Oficina,Escritorio,1,680000
+8,2026-09-08,Jorge Velez,Bogota,Accesorios,Audifonos,2,260000
+9,2026-09-09,Valentina Diaz,Cali,Accesorios,Camara web,2,130000
+10,2026-09-10,Andres Moreno,Barranquilla,Oficina,Impresora,1,950000
+11,2026-09-11,Ana Gomez,Medellin,Tecnologia,Tablet,1,1400000
+12,2026-09-12,Luis Perez,Bogota,Oficina,Lampara,3,90000
+13,2026-09-13,Carla Ruiz,Cali,Tecnologia,Telefono,1,2100000
+14,2026-09-14,Diego Torres,Medellin,Accesorios,Memoria USB,5,65000
+15,2026-09-15,Elena Lopez,Bogota,Oficina,Proyector,1,1750000
+16,2026-09-16,Bruno Castro,Cali,Accesorios,Microfono,2,310000
+17,2026-09-17,Sofia Ramirez,Medellin,Accesorios,Base portatil,2,145000
+18,2026-09-18,Jorge Velez,Bogota,Tecnologia,Router,1,390000
+19,2026-09-19,Valentina Diaz,Cali,Tecnologia,Televisor,1,2300000
+20,2026-09-20,Andres Moreno,Barranquilla,Oficina,Escaner,1,720000
+21,2026-09-21,Ana Gomez,Medellin,Accesorios,Cargador,2,110000
+22,2026-09-22,Luis Perez,Bogota,Tecnologia,Smartwatch,1,980000
+23,2026-09-23,Carla Ruiz,Cali,Oficina,Archivador,2,240000
+24,2026-09-24,Diego Torres,Medellin,Tecnologia,Memoria RAM,2,280000
+25,2026-09-25,Elena Lopez,Bogota,Accesorios,Parlantes,1,460000

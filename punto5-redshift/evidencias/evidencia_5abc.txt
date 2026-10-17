@@ -1,0 +1,24 @@
+[1/7] Creando bucket S3 privado...
+[2/7] Subiendo clientes.csv y pedidos.csv...
+[3/7] Creando el rol IAM para COPY desde S3...
+[4/7] Creando namespace con contraseña administrada...
+  Namespace: AVAILABLE
+[5/7] Creando workgroup Serverless con capacidad mínima...
+  Workgroup: CREATING
+  Workgroup: CREATING
+  Workgroup: CREATING
+  Workgroup: CREATING
+  Workgroup: AVAILABLE
+[6/7] Verificando los archivos de S3...
+  s3://actividad-p5-226147735132-20261017023033/datos/clientes.csv (385 bytes)
+  s3://actividad-p5-226147735132-20261017023033/datos/pedidos.csv (737 bytes)
+[7/7] Infraestructura creada correctamente.
+
+RESUMEN
+Bucket: actividad-p5-226147735132-20261017023033
+Rol COPY: arn:aws:iam::226147735132:role/actividad-p5-20261017023033-copy-role
+Namespace: actividad-p5-20261017023033-ns
+Workgroup: actividad-p5-20261017023033-wg
+Base capacity: 4 RPU
+Secreto administrado: arn:aws:secretsmanager:us-east-2:226147735132:secret:redshift!actividad-p5-20261017023033-ns-administrador-TZya4g
+Estado guardado en: /Users/marianazuluaga/Actividad-AWS/punto5-redshift/infraestructura/estado_redshift.json

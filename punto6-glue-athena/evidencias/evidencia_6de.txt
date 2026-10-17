@@ -1,0 +1,43 @@
+[1/6] Contando los registros iniciales...
+total_inicial
+------------------------------------------------------------------------------------------
+25
+
+[2/6] FILTRO: ventas con precio igual o superior a $500.000
+id_venta | producto | ciudad | cantidad | precio | total
+------------------------------------------------------------------------------------------
+1 | Portatil | Medellin | 1 | 3200000 | 3200000
+19 | Televisor | Cali | 1 | 2300000 | 2300000
+13 | Telefono | Cali | 1 | 2100000 | 2100000
+15 | Proyector | Bogota | 1 | 1750000 | 1750000
+2 | Monitor | Bogota | 2 | 850000 | 1700000
+11 | Tablet | Medellin | 1 | 1400000 | 1400000
+22 | Smartwatch | Bogota | 1 | 980000 | 980000
+10 | Impresora | Barranquilla | 1 | 950000 | 950000
+20 | Escaner | Barranquilla | 1 | 720000 | 720000
+7 | Escritorio | Medellin | 1 | 680000 | 680000
+
+[3/6] AGRUPACIÓN: ingresos y unidades por ciudad
+ciudad | ventas | unidades | ingresos
+------------------------------------------------------------------------------------------
+Bogota | 8 | 14 | 7120000
+Medellin | 8 | 15 | 7095000
+Cali | 7 | 14 | 6420000
+Barranquilla | 2 | 2 | 1670000
+
+[4/6] Agregando cinco registros nuevos en S3...
+Archivo cargado: s3://actividad-p6-226147735132-20261017031009/entrada/ventas_nuevas.csv
+[5/6] Ejecutando nuevamente el crawler de Glue...
+  Crawler: RUNNING; última ejecución: SUCCEEDED
+  Crawler: RUNNING; última ejecución: SUCCEEDED
+  Crawler: RUNNING; última ejecución: SUCCEEDED
+  Crawler: RUNNING; última ejecución: SUCCEEDED
+  Crawler: READY; última ejecución: SUCCEEDED
+[6/6] Verificando el nuevo total mediante Athena...
+total_actualizado
+------------------------------------------------------------------------------------------
+30
+
+PRUEBA GLUE Y ATHENA COMPLETADA CORRECTAMENTE
+Registros iniciales esperados: 25
+Registros después de la actualización: 30

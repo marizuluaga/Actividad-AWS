@@ -1,0 +1,30 @@
+[1/7] Creando bucket S3 privado...
+[2/7] Subiendo ventas.csv con 25 registros...
+[3/7] Creando rol IAM para AWS Glue...
+[4/7] Creando la base de datos de Glue...
+[5/7] Creando y ejecutando el crawler...
+  Crawler: RUNNING; última ejecución: pendiente
+  Crawler: RUNNING; última ejecución: pendiente
+  Crawler: RUNNING; última ejecución: pendiente
+  Crawler: RUNNING; última ejecución: pendiente
+  Crawler: READY; última ejecución: SUCCEEDED
+[6/7] Consultando la tabla y el esquema inferido...
+Tabla: actividad_p6_20261017031009.entrada
+  id_venta: bigint
+  fecha: string
+  cliente: string
+  ciudad: string
+  categoria: string
+  producto: string
+  cantidad: bigint
+  precio: bigint
+[7/7] Infraestructura creada correctamente.
+
+RESUMEN
+Bucket: actividad-p6-226147735132-20261017031009
+Archivo: s3://actividad-p6-226147735132-20261017031009/entrada/ventas.csv
+Rol Glue: arn:aws:iam::226147735132:role/actividad-p6-20261017031009-glue-role
+Base Glue: actividad_p6_20261017031009
+Crawler: actividad-p6-20261017031009-crawler
+Tabla: entrada
+Estado guardado en: /Users/marianazuluaga/Actividad-AWS/punto6-glue-athena/infraestructura/estado_glue_athena.json

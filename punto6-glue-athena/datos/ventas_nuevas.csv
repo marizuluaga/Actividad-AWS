@@ -1,0 +1,6 @@
+id_venta,fecha,cliente,ciudad,categoria,producto,cantidad,precio
+26,2026-09-26,Paula Rios,Medellin,Tecnologia,Servidor,1,4500000
+27,2026-09-27,Mateo Leon,Bogota,Oficina,Mesa,2,530000
+28,2026-09-28,Lucia Gil,Cali,Tecnologia,Consola,1,1900000
+29,2026-09-29,Samuel Arias,Medellin,Accesorios,Webcam,3,210000
+30,2026-09-30,Natalia Soto,Bogota,Tecnologia,Impresora 3D,1,2800000

@@ -1,0 +1,60 @@
+[1/7] Subiendo los CSV a S3 con Boto3...
+s3://actividad-p5-226147735132-20261017023033/datos/clientes.csv (385 bytes)
+s3://actividad-p5-226147735132-20261017023033/datos/pedidos.csv (737 bytes)
+
+[2/7] Creando las tablas mediante Redshift Data API...
+eliminar_pedidos_anteriores: FINISHED
+eliminar_clientes_anteriores: FINISHED
+crear_tabla_clientes: FINISHED
+crear_tabla_pedidos: FINISHED
+
+[3/7] Ejecutando COPY desde S3...
+copy_clientes: FINISHED
+copy_pedidos: FINISHED
+
+[4/7] Verificando cantidades cargadas...
+conteo_registros: FINISHED
+clientes | pedidos
+--------------------------------------------------------------------------------
+10 | 20
+
+[5/7] FILTRO: pedidos con valor superior a $500.000
+consulta_filtro: FINISHED
+id_pedido | producto | valor
+--------------------------------------------------------------------------------
+1001 | Portátil | 3200000.00
+1019 | Televisor | 2300000.00
+1013 | Teléfono | 2100000.00
+1015 | Proyector | 1750000.00
+1011 | Tablet | 1400000.00
+1010 | Impresora | 950000.00
+1002 | Monitor | 850000.00
+1020 | Escáner | 720000.00
+1007 | Escritorio | 680000.00
+
+[6/7] UNIÓN: quién compró qué y desde qué ciudad
+consulta_union: FINISHED
+nombre | ciudad | producto | valor
+--------------------------------------------------------------------------------
+Ana Gómez | Medellín | Portátil | 3200000.00
+Valentina Díaz | Cali | Televisor | 2300000.00
+Carla Ruiz | Cali | Teléfono | 2100000.00
+Elena López | Bogotá | Proyector | 1750000.00
+Ana Gómez | Medellín | Tablet | 1400000.00
+Andrés Moreno | Barranquilla | Impresora | 950000.00
+Luis Pérez | Bogotá | Monitor | 850000.00
+Andrés Moreno | Barranquilla | Escáner | 720000.00
+Sofía Ramírez | Medellín | Escritorio | 680000.00
+Diego Torres | Medellín | Silla | 420000.00
+
+[7/7] AGREGACIÓN: ingresos por ciudad
+consulta_agregacion: FINISHED
+ciudad | pedidos | ingresos
+--------------------------------------------------------------------------------
+Medellín | 6 | 5910000.00
+Cali | 6 | 5095000.00
+Bogotá | 6 | 3690000.00
+Barranquilla | 2 | 1670000.00
+
+PRUEBA REDSHIFT COMPLETADA CORRECTAMENTE
+La contraseña fue administrada por Secrets Manager y no está en el código.

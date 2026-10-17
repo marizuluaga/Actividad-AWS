@@ -1,0 +1,26 @@
+[1/6] Secreto recuperado correctamente desde Secrets Manager.
+VersionId: f1c768d5-5b59-453d-8622-6a619bd3c0a8
+La contraseña no se imprime ni está escrita en el código.
+[2/6] Conexión exitosa con Amazon DocumentDB mediante el túnel SSH.
+[3/6] Documentos insertados: 10
+
+[4/6] FILTRO: ventas completadas en Medellín
+{"_id": "6ad2f07a8076868fd0c3070b", "actividad": "punto3", "cliente": "Ana Gómez", "ciudad": "Medellín", "categoria": "Tecnología", "producto": "Teclado", "cantidad": 2, "precio": 180000, "estado": "Completada"}
+{"_id": "6ad2f07a8076868fd0c3070d", "actividad": "punto3", "cliente": "Carlos Ruiz", "ciudad": "Medellín", "categoria": "Tecnología", "producto": "Mouse", "cantidad": 3, "precio": 75000, "estado": "Completada"}
+{"_id": "6ad2f07a8076868fd0c30711", "actividad": "punto3", "cliente": "Sofía Ramírez", "ciudad": "Medellín", "categoria": "Oficina", "producto": "Lámpara", "cantidad": 4, "precio": 90000, "estado": "Completada"}
+{"_id": "6ad2f07a8076868fd0c30713", "actividad": "punto3", "cliente": "Jorge Vélez", "ciudad": "Medellín", "categoria": "Tecnología", "producto": "Disco SSD", "cantidad": 1, "precio": 350000, "estado": "Completada"}
+
+[5/6] ORDENAMIENTO: productos por precio descendente
+{"_id": "6ad2f07a8076868fd0c30710", "cliente": "Andrés Castro", "producto": "Portátil", "precio": 3200000}
+{"_id": "6ad2f07a8076868fd0c3070c", "cliente": "Luis Pérez", "producto": "Monitor", "precio": 850000}
+{"_id": "6ad2f07a8076868fd0c3070e", "cliente": "Laura Torres", "producto": "Escritorio", "precio": 680000}
+{"_id": "6ad2f07a8076868fd0c3070f", "cliente": "María López", "producto": "Silla", "precio": 420000}
+{"_id": "6ad2f07a8076868fd0c30713", "cliente": "Jorge Vélez", "producto": "Disco SSD", "precio": 350000}
+
+[6/6] AGREGACIÓN: totales por categoría
+{"_id": "Tecnología", "unidades": 8, "valor_total": 4985000}
+{"_id": "Oficina", "unidades": 7, "valor_total": 1880000}
+{"_id": "Accesorios", "unidades": 4, "valor_total": 780000}
+
+PRUEBA COMPLETADA CORRECTAMENTE
+Total de documentos almacenados: 10

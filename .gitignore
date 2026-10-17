@@ -21,3 +21,19 @@ __pycache__/
 .DS_Store
 
 recursos_cli.env
+
+# Archivos locales del punto 3
+punto3-documentdb/infraestructura/estado_documentdb.json
+punto3-documentdb/global-bundle.pem
+
+punto4-neptune/infraestructura/estado_neptune.json
+punto5-redshift/infraestructura/estado_redshift.json
+
+punto6-glue-athena/infraestructura/estado_glue_athena.json
+**/.venv/
+**/__pycache__/
+**/.terraform/
+**/estado_*.json
+**/secret.json
+**/global-bundle.pem
+**/.DS_Store
